@@ -1,0 +1,11 @@
+C:\Users\Carls\Source\Repos\Animals\Animals\bin\Debug\netcoreapp3.0\Animals.exe
+C:\Users\Carls\Source\Repos\Animals\Animals\bin\Debug\netcoreapp3.0\Animals.deps.json
+C:\Users\Carls\Source\Repos\Animals\Animals\bin\Debug\netcoreapp3.0\Animals.runtimeconfig.json
+C:\Users\Carls\Source\Repos\Animals\Animals\bin\Debug\netcoreapp3.0\Animals.runtimeconfig.dev.json
+C:\Users\Carls\Source\Repos\Animals\Animals\bin\Debug\netcoreapp3.0\Animals.dll
+C:\Users\Carls\Source\Repos\Animals\Animals\bin\Debug\netcoreapp3.0\Animals.pdb
+C:\Users\Carls\Source\Repos\Animals\Animals\obj\Debug\netcoreapp3.0\Animals.csprojAssemblyReference.cache
+C:\Users\Carls\Source\Repos\Animals\Animals\obj\Debug\netcoreapp3.0\Animals.AssemblyInfoInputs.cache
+C:\Users\Carls\Source\Repos\Animals\Animals\obj\Debug\netcoreapp3.0\Animals.AssemblyInfo.cs
+C:\Users\Carls\Source\Repos\Animals\Animals\obj\Debug\netcoreapp3.0\Animals.dll
+C:\Users\Carls\Source\Repos\Animals\Animals\obj\Debug\netcoreapp3.0\Animals.pdb

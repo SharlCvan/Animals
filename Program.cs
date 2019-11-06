@@ -79,14 +79,17 @@ namespace Animal
 
         public static void PrintAnimals(Zoo animalList)
         {
-            Console.WriteLine("FROGS");
+            #region Print Frogs
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("_____________________________FROGS___________________________");
+            Console.WriteLine("|  Name  | Gender | Age | Color  | Poisonus |      Sound     |");
+            Console.WriteLine("|________|________|_____|________|__________|________________|");
             int age = 0;
             int numOfFrogs = 0;
             foreach (Frog frog in animalList.Frogs)
             {
-                Console.WriteLine(frog);
-                Console.WriteLine("The frog says {0}", frog.Sound());
-                Console.WriteLine("______________");
+                Console.WriteLine("| {0,-6} | {1,-6} | {2,-3} | {3,-6} | {4,-8} | {5,-12} |",frog.Name,frog.Sex,frog.Age,frog.Color,frog.Poisonus, frog.Sound());                
+                Console.WriteLine("|________|________|_____|________|__________|________________|");
                 numOfFrogs++;
                 age += frog.Age;
             }
@@ -97,7 +100,11 @@ namespace Animal
             Console.ReadKey();
             Console.Clear();
 
-            Console.WriteLine("DOGS");
+            #endregion
+
+            #region Print Dogs
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("_________________DOGS________________");
             age = 0;
             numOfFrogs = 0;
             foreach (Dog dog in animalList.Dogs)
@@ -115,6 +122,10 @@ namespace Animal
             Console.ReadKey();
             Console.Clear();
 
+            #endregion
+
+            #region Print kittens
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("KITTENS");
             age = 0;
             numOfFrogs = 0;
@@ -133,6 +144,11 @@ namespace Animal
             Console.ReadKey();
             Console.Clear();
 
+            #endregion
+
+            #region Print bobcats
+
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("BOBCATS");
             age = 0;
             numOfFrogs = 0;
@@ -147,7 +163,7 @@ namespace Animal
 
             AvarageAge = age / numOfFrogs;
             Console.WriteLine("Avarage age of all bobcats is: {0}", AvarageAge);
-
+            #endregion
         }
     }
 }
